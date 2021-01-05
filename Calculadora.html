@@ -1,0 +1,81 @@
+<html> 
+    <head>
+        <script> 
+            function soma()
+            { 
+                let inputa= document.getElementById("a");
+                let inputb = document.getElementById("b");
+                let inputr = document.getElementById("c");
+                let va = parseInt(a.value);
+                let vb = parseInt(b.value);
+                let vr = va+vb;
+                alert("A soma equivale a: "+vr);
+            }
+            function div()
+            { 
+                let inputa= document.getElementById("a");
+                let inputb = document.getElementById("b");
+                let inputr = document.getElementById("c");
+                let va = parseInt(a.value);
+                let vb = parseInt(b.value);
+                let vr = va/vb;
+                alert("A divisão equivale a: "+vr);
+            }
+            function dimi()
+            { 
+                let inputa= document.getElementById("a");
+                let inputb = document.getElementById("b");
+                let inputr = document.getElementById("c");
+                let va = parseInt(a.value);
+                let vb = parseInt(b.value);
+                let vr = va - vb;
+                alert("A diminuição equivale a: "+vr);
+            }
+            function multi()
+            { 
+                let inputa= document.getElementById("a");
+                let inputb = document.getElementById("b");
+                let inputr = document.getElementById("c");
+                let va = parseInt(a.value);
+                let vb = parseInt(b.value);
+                let vr = va * vb;
+                alert("A multiplicação equivale a: "+vr);
+            }
+        </script>
+        <style>
+            p { 
+                text-align: center;
+                border-style:double;
+             margin-top: 1cm;
+                border-top: gold;
+                
+            }
+            h1{
+                background-color: rgb(221, 81, 81);
+                text-align: center;
+                border-style: groove;
+            }
+            body {
+                background-color:black;
+                
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1> CALCULADORA </h1>
+
+        
+        <p>
+        <input id="a" size="20" type="text"size="10"> </input>
+        <input id="b" size="20" type="text" size="10"> </input>
+        <br>
+        <br>
+        <button onclick="soma()">aperta-me para somar</button>
+        <button onclick="multi()">aperta-me para multiplicar</button>
+        <button onclick="dimi()">aperta-me para diminuir</button>
+        <button onclick="div()">aperta-me para dividir</button>
+        </p>
+        
+    </body>
+</html> 
