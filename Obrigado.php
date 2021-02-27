@@ -1,0 +1,5 @@
+<html>
+<?php
+echo "OBRIGADO PELA INSCRIÇÃO, ENTRAREMOS EM CONTATO EM BREVE!";
+?> 
+</html>
